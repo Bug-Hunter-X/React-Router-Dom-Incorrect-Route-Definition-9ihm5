@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Router Dom v6 concerning route definition. The issue arises from incorrectly placing a catch-all route (`path="*"`) before more specific routes. This prevents other routes from ever being matched.  The solution shows how to correctly position the catch-all route.
